@@ -41,7 +41,8 @@ public class MajorityElement2 {
         if(count1 > n/3) list.add(ele1);
         if(count2 > n/3) list.add(ele2);
 
-
+        // need to sort in GFG, but since there are only two elements
+        // compare and store which is smaller and larger
         return list;
     }
 }
